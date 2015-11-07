@@ -1,0 +1,20 @@
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: zend_test
+  username: root
+  host: 127.0.0.1
+  port: 3306
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: zend_dev
+  username: root
+  host: 127.0.0.1
+  port: 3306
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: zend_prod 
+  host: 127.0.0.1
+  port: 3306
